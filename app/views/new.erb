@@ -1,3 +1,13 @@
-#    fill_in :name, :with => "Enchiladas con Salsa Verde"
-#    fill_in :ingredients, :with => "Tortillas, Queso Blanco, Tomatillos, Onion, Garlic, Black beans, Cilantro"
-#    fill_in :cook_time, :with => "20 minutes"
+fill_in :name, :with => "Enchiladas con Salsa Verde"
+fill_in :ingredients, :with => "Tortillas, Queso Blanco, Tomatillos, Onion, Garlic, Black beans, Cilantro"
+fill_in :cook_time, :with => "20 minutes"
+
+<form method = "POST" action = "/recipes">
+  <label for = "name">Name: </label>
+  <input type = "text" name = "name" id = "name">
+  <label for = "ingredients">Ingredients: </label>
+  <input type = "text" name = "ingredients" id = "ingredients">
+  <label for = "cook_time">Cook Time: </label>
+  <input type = "text" name = "cook_time" id = "cook_time">
+  <button type = "submit" id = "submit">Submit</button> 
+  
