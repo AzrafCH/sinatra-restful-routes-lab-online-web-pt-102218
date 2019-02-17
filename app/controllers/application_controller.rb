@@ -24,6 +24,6 @@ class ApplicationController < Sinatra::Base
     redirect "/recipes/#{Recipe.last.id}"
   end
 
-  
+
 
 end
